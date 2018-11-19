@@ -1,0 +1,57 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    width: 9em;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+}
+nav a {
+    color: #ffffff;
+    background: black;
+    display: block;
+    padding: .3em 3em;
+    margin: .3em 0;
+    border-left: 5px solid transparent;
+    border-radius: 0 3em 3em 0;
+    text-decoration: none;
+}
+nav a:hover {
+    border-left: 5px solid #fff;
+}
+ul{
+    padding: 16px 0;
+    text-decoration: none;
+}
+
+
+section {
+    min-height: 100vh;
+    padding-left: 2em 2em 2em 9em;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+section a {
+    color: black;
+}
+h2 {
+    margin: 0;
+}
+
+#rood   { background: red;}
+#geel   { background: yellow; color: black}
+#groen  { background: green;}
+#blauw  { background: blue;}
+#paars  { background: purple;}
+
